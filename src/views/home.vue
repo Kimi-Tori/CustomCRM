@@ -1,15 +1,15 @@
 <template>
   <div class="home">
-    <modal-form />
+    <modal />
   </div>
 </template>
 
 <script>
-import ModalForm from "@/components/modal-form.vue";
+import Modal from "@/components/home/modal.vue";
 
 export default {
   components: {
-    ModalForm,
+    Modal,
   },
 };
 </script>
