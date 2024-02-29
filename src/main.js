@@ -5,6 +5,8 @@ import store from './store'
 import vuetify from './plugins/vuetify'
 import { loadFonts } from './plugins/webfontloader'
 
+import '@fortawesome/fontawesome-free/js/all'
+
 import '@/styles/index.scss';
 
 loadFonts()
