@@ -10,8 +10,28 @@ const routes = [
   {
     path: '/test',
     name: 'test',
-    component: () => import('../views/test.vue')
-  }
+    component: () => import('../views/clients.vue')
+  },
+  {
+    path: '/test',
+    name: 'test',
+    component: () => import('../views/finansial.vue')
+  },
+  {
+    path: '/test',
+    name: 'test',
+    component: () => import('../views/ibs.vue')
+  },
+  {
+    path: '/test',
+    name: 'test',
+    component: () => import('../views/reports.vue')
+  },
+  {
+    path: '/test',
+    name: 'test',
+    component: () => import('../views/configuration.vue')
+  },
 ]
 
 const router = createRouter({

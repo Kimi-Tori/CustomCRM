@@ -2,10 +2,9 @@
   <div class="sidebar-link">
     <router-link
       :to="to"
-      class="sidebar-link__item d-flex align-center"
+      class="sidebar-link__item d-flex align-center ml-8 mb-2 pa-2"
       :class="{ active: isActive }"
     >
-      <i class="icon mr-3" :class="icon" />
       <transition name="fade">
         <span v-if="!collapsed">
           <slot />
@@ -52,11 +51,7 @@ export default {
     font-weight: 400;
     user-select: none;
 
-    margin: 0.1em 0;
-    padding: 0.4em;
-    border-radius: 0.25em;
-    height: 1.5em;
-
+    border-radius: 5px;
     color: $white;
     text-decoration: none;
 
